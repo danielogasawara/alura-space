@@ -1,0 +1,26 @@
+.rodape {
+    align-items: center;
+    background-color: var(--azul-rodape);
+    bottom: 0;
+    box-shadow: 0px -2px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    position: fixed;
+    width: 100%;
+}
+
+.rodape__redes-sociais {
+    display: flex;
+    gap: 34px;
+    list-style: none;
+    padding: 0;
+}
+
+.rodape__redes-sociais li {
+    cursor: pointer;
+}
+
+.rodape p {
+    color: #fff;
+}
